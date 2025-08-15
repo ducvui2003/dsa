@@ -1,4 +1,4 @@
-package dsa._36;
+package leet_code._36;
 /*
  * https://leetcode.com/problems/valid-sudoku/description/
  */

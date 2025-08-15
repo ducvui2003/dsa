@@ -1,4 +1,4 @@
-package dsa._2133;
+package leet_code._2133;
 
 import java.util.*;
 import java.util.stream.Collectors;

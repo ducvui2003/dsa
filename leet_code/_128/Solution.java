@@ -1,4 +1,4 @@
-package dsa._128;
+package leet_code._128;
 
 import java.util.Arrays;
 
