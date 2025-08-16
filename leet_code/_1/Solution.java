@@ -2,7 +2,7 @@ package leet_code._1;
 
 import java.util.HashMap;
 
-public class TwoSum {
+public class Solution {
 
     // brute force
     public int[] twoSumHint1(int[] nums, int target) {
@@ -79,7 +79,7 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        TwoSum tw = new TwoSum();
+        Solution tw = new Solution();
         System.out.println(tw.twoSumHint3(new int[]{3, 2, 4}, 6));
     }
 }
