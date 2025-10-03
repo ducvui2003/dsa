@@ -13,7 +13,7 @@ public class InsertionSort implements ISort {
                 int temp = arr[i];
                 arr[i] = arr[p];
                 arr[p] = temp;
-                i;
+                i++;
             }
         }
         return new int[0];
