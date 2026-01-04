@@ -1,7 +1,9 @@
 package leet_code._1;
 
 import java.util.HashMap;
-
+/*
+* https://leetcode.com/problems/two-sum/
+*/ 
 public class Solution {
 
     // brute force
@@ -59,6 +61,7 @@ public class Solution {
             if ((value == null))
                 map.put(nums[j], j);
             else if (nums[j] * 2 == target)
+            // check if 2 index has same value
                 return new int[]{
                         Math.min(j, value), Math.max(j, value)
                 };
