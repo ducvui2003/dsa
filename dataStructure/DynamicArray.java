@@ -1,4 +1,4 @@
-package dsa.dataStructure;
+package dataStructure;
 
 class DynamicArray {
     Integer[] arr = null;

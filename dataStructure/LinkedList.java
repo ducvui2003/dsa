@@ -1,4 +1,4 @@
-package dsa.dataStructure;
+package dataStructure;
 
 import java.util.ArrayList;
 

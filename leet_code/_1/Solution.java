@@ -1,8 +1,10 @@
-package dsa.array;
+package leet_code._1;
 
 import java.util.HashMap;
-
-public class TwoSum {
+/*
+* https://leetcode.com/problems/two-sum/
+*/ 
+public class Solution {
 
     // brute force
     public int[] twoSumHint1(int[] nums, int target) {
@@ -59,6 +61,7 @@ public class TwoSum {
             if ((value == null))
                 map.put(nums[j], j);
             else if (nums[j] * 2 == target)
+            // check if 2 index has same value
                 return new int[]{
                         Math.min(j, value), Math.max(j, value)
                 };
@@ -79,7 +82,7 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        TwoSum tw = new TwoSum();
+        Solution tw = new Solution();
         System.out.println(tw.twoSumHint3(new int[]{3, 2, 4}, 6));
     }
 }
