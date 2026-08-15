@@ -19,34 +19,34 @@ public class Anagram {
             }
         }
         return true;
-//        HashMap<Character, Integer> hashMap1 = new HashMap<>();
-//        HashMap<Character, Integer> hashMap2 = new HashMap<>();
-//
-//        for (int i = 0; i < s.toCharArray().length; i++) {
-//            char c = s.charAt(i);
-//            if (hashMap1.containsKey(c))
-//                hashMap1.put(c, hashMap1.get(c) + 1);
-//            else
-//                hashMap1.put(c, 1);
-//
-//            c = t.charAt(i);
-//            if (hashMap2.containsKey(c))
-//                hashMap2.put(c, hashMap2.get(c) + 1);
-//            else
-//                hashMap2.put(c, 1);
-//        }
-//        if (hashMap1.size() != hashMap2.size()) {
-//            return false;
-//        }
-//        for (Map.Entry<Character, Integer> entry : hashMap1.entrySet()) {
-//            Character key = entry.getKey();
-//            Integer value = entry.getValue();
-//            Integer value2 = hashMap2.get(key);
-//            if (value2 == null || !value2.equals(value)) {
-//                return false;
-//            }
-//        }
-//        return true;
+        // HashMap<Character, Integer> hashMap1 = new HashMap<>();
+        // HashMap<Character, Integer> hashMap2 = new HashMap<>();
+        //
+        // for (int i = 0; i < s.toCharArray().length; i++) {
+        // char c = s.charAt(i);
+        // if (hashMap1.containsKey(c))
+        // hashMap1.put(c, hashMap1.get(c) + 1);
+        // else
+        // hashMap1.put(c, 1);
+        //
+        // c = t.charAt(i);
+        // if (hashMap2.containsKey(c))
+        // hashMap2.put(c, hashMap2.get(c) + 1);
+        // else
+        // hashMap2.put(c, 1);
+        // }
+        // if (hashMap1.size() != hashMap2.size()) {
+        // return false;
+        // }
+        // for (Map.Entry<Character, Integer> entry : hashMap1.entrySet()) {
+        // Character key = entry.getKey();
+        // Integer value = entry.getValue();
+        // Integer value2 = hashMap2.get(key);
+        // if (value2 == null || !value2.equals(value)) {
+        // return false;
+        // }
+        // }
+        // return true;
     }
 
     public static void main(String[] args) {
