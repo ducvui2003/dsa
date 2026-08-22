@@ -1,4 +1,4 @@
-package dsa.sort;
+package sort;
 
 public class QuickSort {
     public int[] quickSort(int[] nums) {

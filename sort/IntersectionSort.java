@@ -1,4 +1,4 @@
-package dsa.sort;
+package sort;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
